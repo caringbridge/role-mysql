@@ -1,0 +1,10 @@
+name             'role-mysql'
+maintainer       'Stephen Van Zee'
+maintainer_email 'svanzee@caringbridge.org'
+license          'All rights reserved'
+description      'Installs/Configures role-mysql'
+long_description 'Installs/Configures role-mysql'
+version          '0.1.0'
+
+depends 'mysql', '~> 6.0.10'
+#depends 'php'
